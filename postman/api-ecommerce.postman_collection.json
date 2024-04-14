@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "a5bafd3f-6ed2-4d0d-9c27-8e96740e49b3",
+		"name": "api-ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29351789"
+	},
+	"item": [
+		{
+			"name": "findCustomerInvoice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findCustomerInvoice/mgonzalez/2024-03-22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findCustomerInvoice",
+						"mgonzalez",
+						"2024-03-22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findCustomer/frojas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findCustomer",
+						"frojas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findInvoiceItem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/findInvoiceItem/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"findInvoiceItem",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
