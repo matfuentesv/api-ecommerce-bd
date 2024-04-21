@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cl.company.ecommerce</groupId>
 	<artifactId>api-e-commerce</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>api-ecommerce-bd</name>
+	<version>1.0.0</version>
+	<name>api-ecommerce-test</name>
 	<description>Api E-commerce</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
